@@ -1,0 +1,36 @@
+body{
+    background-color: aqua;
+}
+.first{
+    font-size: 20px;
+}
+.second{
+    text-decoration: underline;
+}
+.Box{
+    /* background-color: red; */
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    /* inside */
+    padding: 20px;
+    /* outside */
+    margin: 30px;
+    /* margin-bottom: 20px; */
+
+    width: 200px;
+    height: 400px;
+}
+.box2{
+    position: fixed;
+    top: 10px;
+    right: 30px;
+}
+.box3{
+    position: absolute;
+    top: 0px;
+    left: 300px;
+}
+.box4{
+    position: relative;
+}
