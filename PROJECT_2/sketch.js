@@ -9,7 +9,8 @@ let nextLevel = false
 let score = 0;
 
 function setup() {
-  createCanvas(400, 400);
+  let cnv = createCanvas(400,400);
+  cnv.parent("canvasContainer")
   prompt('You are under lockdown in Shanghai. Your goal is to get out of lockdown, Hao ma?')
   time = millis();
   restart();
