@@ -1,0 +1,34 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+.Box{
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+.B1{
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+.Image{
+  left: 20px;
+  padding: 20px;
+ 
+}
+.B2{
+  position: fixed;
+  width: 30%;
+  left: 400px;
+  text-align: center;
+}
+.coding{
+    margin: auto;
+    top: 20px;
+    position: relative;
+    width: 50%;
+}
